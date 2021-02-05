@@ -1,0 +1,33 @@
+[package]
+name = "GTK_Multithread2"
+version = "0.1.0"
+authors = [""]
+edition = "2018"
+
+[dependencies]
+gtk = "*"
+gio = "*"
+gdk = "*"
+glib = "^0"
+cairo = "*"
+rand = "*"
+plotters = "*"
+plotters-cairo = "*"
+cairo-rs = "*"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+# [dependencies]
+# glib = "^0"
+# cairo-rs = { version = "^0", features = ["png"] }
+# plotters = "^0.3.0"
+# plotters-cairo = "0.3.1"
+# # plotters-backend = "^0.3"
+# rand = "0.7.3"
+# # regex = "0.2"
+# # ndarray = "0.13.1"
+# [dependencies.gtk]
+# version = "0.9.0"
+# features = ["v3_16"]
+# [dependencies.gio]
+# version = ""
+# features = ["v2_44"]
